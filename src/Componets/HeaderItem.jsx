@@ -6,7 +6,7 @@ function HeaderItem({Icon, name}) {
     cursor-pointer hover:underline underline-offset-8
     '>
         <Icon/>
-        <h2>{name}</h2>
+        <h2 className='hidden md:block'>{name}</h2>
     </div>
   )
 }
